@@ -1,0 +1,7 @@
+name = "ai-lab"
+compatibility_date = "2026-09-01"
+workers_dev = true
+routes = [{ pattern = "lab.meetdominic.me", custom_domain = true }]
+
+[assets]
+directory = "./dist"
