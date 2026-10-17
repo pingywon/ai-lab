@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Lab | Dominic Gentile</title>
+<meta name="description" content="Real problems. Real answers. Interactive AI.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg?v={{VERSION}}" type="image/svg+xml">
+<link rel="preload" href="fonts/public-sans-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="kit.css?v={{VERSION}}">
+<link rel="stylesheet" href="styles.css?v={{VERSION}}">
+<script type="module" src="app.js?v={{VERSION}}"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="container">
+    <a class="brand" href="./"><span class="brand-mark" data-icon="sparkle"></span>AI Lab</a>
+    <nav class="nav" aria-label="Apps">
+      <a class="wide" href="https://fineprint.meetdominic.me">Fine Print</a>
+      <a class="wide" href="https://first90.meetdominic.me">First 90</a>
+      <a class="wide" href="https://crew.meetdominic.me">Crew</a>
+      <a href="https://meetdominic.me">Resume</a>
+      <button class="icon-btn" id="theme" type="button"></button>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="lead">
+    <h1>Real problems. Real answers. Interactive AI.</h1>
+  </section>
+
+  <section id="apps">
+    <div class="apps">
+      <article class="card app fp">
+        <a class="shot" href="https://fineprint.meetdominic.me/#sample/lease" aria-label="Open a Fine Print sample">
+          <img class="only-light" src="img/fine-print-light.webp" width="1200" height="675" alt="Fine Print reading a lease: verdict, red flags, key terms" loading="lazy">
+          <img class="only-dark" src="img/fine-print-dark.webp" width="1200" height="675" alt="" loading="lazy">
+        </a>
+        <div class="app-body">
+          <div class="app-h"><span class="mark" data-icon="doc"></span><h2>Fine Print</h2></div>
+          <p class="tag">Contracts, decoded.</p>
+          <div class="chips"><span class="chip">Red flags</span><span class="chip">Quotes verified</span><span class="chip">PDF upload</span></div>
+          <div class="row">
+            <a class="btn" href="https://fineprint.meetdominic.me">Open</a>
+            <a class="btn ghost" href="https://github.com/pingywon/fine-print" data-icon="github">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card app f90">
+        <a class="shot" href="https://first90.meetdominic.me/#sample/casper" aria-label="Open a First 90 sample">
+          <img class="only-light" src="img/first-90-light.webp" width="1200" height="675" alt="First 90 plan for Casper: automate-first card, chart, roadmap" loading="lazy">
+          <img class="only-dark" src="img/first-90-dark.webp" width="1200" height="675" alt="" loading="lazy">
+        </a>
+        <div class="app-body">
+          <div class="app-h"><span class="mark" data-icon="target"></span><h2>First 90</h2></div>
+          <p class="tag">What to automate first.</p>
+          <div class="chips"><span class="chip">6-step AI team</span><span class="chip">Impact chart</span><span class="chip">90-day plan</span></div>
+          <div class="row">
+            <a class="btn" href="https://first90.meetdominic.me">Open</a>
+            <a class="btn ghost" href="https://github.com/pingywon/first-90" data-icon="github">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card app crew">
+        <a class="shot" href="https://crew.meetdominic.me/#sample/raise" aria-label="Open a Crew sample">
+          <img class="only-light" src="img/crew-light.webp" width="1200" height="675" alt="Crew run: agent timeline and finished page" loading="lazy">
+          <img class="only-dark" src="img/crew-dark.webp" width="1200" height="675" alt="" loading="lazy">
+        </a>
+        <div class="app-body">
+          <div class="app-h"><span class="mark" data-icon="users"></span><h2>Crew</h2></div>
+          <p class="tag">One job, whole AI team.</p>
+          <div class="chips"><span class="chip">7 agents</span><span class="chip">Parallel work</span><span class="chip">Review loop</span></div>
+          <div class="row">
+            <a class="btn" href="https://crew.meetdominic.me">Open</a>
+            <a class="btn ghost" href="https://github.com/pingywon/crew" data-icon="github">Code</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-h"><h2>Built with</h2></div>
+    <div class="steps four">
+      <div class="step"><span class="ic" data-icon="sparkle"></span><b>Claude Opus 5.5</b><small>Fixed answer shapes</small></div>
+      <div class="step"><span class="ic" data-icon="shield"></span><b>Checked output</b><small>Quotes matched to sources</small></div>
+      <div class="step"><span class="ic" data-icon="globe"></span><b>Cloudflare Workers</b><small>Live steps streamed</small></div>
+      <div class="step"><span class="ic" data-icon="check"></span><b>Phone tested</b><small>390 px, light and dark</small></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="container">
+    <span>Dominic Gentile. AI Lab v{{VERSION}}</span>
+    <nav aria-label="Footer"><a href="https://meetdominic.me">Resume</a><a href="https://meetdominic.me/work/">Portfolio</a><a href="https://github.com/pingywon">GitHub</a></nav>
+  </div>
+</footer>
+</body>
+</html>
