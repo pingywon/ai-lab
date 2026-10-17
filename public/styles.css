@@ -47,3 +47,7 @@
   :root:not([data-theme="light"]) .only-dark { display: block !important; }
   :root:not([data-theme="light"]) .only-light { display: none !important; }
 }
+
+.lead { padding: var(--s-8) 0 var(--s-6); }
+.lead h1 { margin: 0; font-size: clamp(1.7rem, 4.6vw, 2.8rem); font-weight: 850; letter-spacing: -0.03em; line-height: 1.08; text-wrap: balance; }
+@media (min-width: 960px) { .lead { padding: var(--s-12) 0 var(--s-8); } }
